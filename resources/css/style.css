@@ -232,4 +232,12 @@ html {
   .footer {
     padding-top: 1rem;
   }
+
+  .footer .bottom-logo {
+    justify-content: center;
+  }
+
+  .footer .bottom-logo span {
+    display: none;
+  }
 }
