@@ -4,6 +4,10 @@ html {
   line-height: 1.4rem;
 }
 
+.mobile {
+    display: none;
+}
+
 .header {
   background-image: url(../images/glasses-bg.png);
   background-repeat: no-repeat;
@@ -142,7 +146,6 @@ html {
   }
 
   .banner-text {
-    background-color: white;
     padding: 0.75rem 4rem;
     margin-right: 2rem;
     margin-top: 5rem;
@@ -150,5 +153,82 @@ html {
 
   .banner-text h1 {
     font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 0.77rem;
+  }
+
+  .header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .header span {
+    display: none;
+  }
+
+  .top-nav {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .header .banner {
+    width: 100%;
+  }
+
+  .banner-text {
+    padding: 1rem;
+    width: 100%;
+    margin: 9rem 0;
+  }
+
+  .banner-text h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .services .service-list {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem auto 2.23rem auto;
+  }
+
+  .service {
+    margin-bottom: 1.54rem;
+    margin-top: 0rem;
+  }
+
+  .about {
+    padding-top: 0rem;
+  }
+
+  .about .about-sections {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 4rem;
+  }
+
+  .info h1 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .info p {
+    padding: 0 0.5rem;
+  }
+
+  .footer {
+    padding-top: 1rem;
   }
 }
