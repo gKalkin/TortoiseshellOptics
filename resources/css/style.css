@@ -92,3 +92,41 @@ html {
 .truck {
   width: 5rem;
 }
+
+.about {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.about .about-sections {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  padding-right: 5%;
+}
+
+.info h1 {
+  background-color: cadetblue;
+  max-width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  padding: 4rem;
+}
+
+.footer .bottom-logo {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
