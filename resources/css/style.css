@@ -130,3 +130,25 @@ html {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    height: 22rem;
+    padding: 0rem;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .banner-text {
+    background-color: white;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1.33rem;
+  }
+}
