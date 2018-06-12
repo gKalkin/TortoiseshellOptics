@@ -158,6 +158,7 @@ html {
 
 @media only screen and (max-width: 560px) {
   html {
+    font-family: Helvetica;
     font-size: 0.77rem;
   }
 
